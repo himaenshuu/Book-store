@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://book-store-frontend-49q0.onrender.com",
+    origin: "http://localhost:5173",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
