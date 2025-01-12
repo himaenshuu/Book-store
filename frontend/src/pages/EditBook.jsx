@@ -39,7 +39,7 @@ const EditBook = () => {
     };
     setLoading(true);
     axios
-      .put(`https://book-store-backend-z64m.onrender.com/books/${id}`, data)
+      .put(`https://book-store-backend-2b1d.onrender.com/${id}`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Book updated successfully!", { variant: "success" });
