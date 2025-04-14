@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
+  "author": "Himanshu Raj",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
